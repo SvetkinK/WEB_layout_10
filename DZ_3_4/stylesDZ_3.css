@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+/**,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ :focus,
+ :active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    /*для айфонов 3 ниже
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}*/
+
+.DZ3_main {
+    width: 1920px;
+    height: 943px;
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.DZ3_header {
+    width: 1289px;
+    height: 114px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /*border: 1px solid rgb(0, 255, 34);*/
+}
+
+.LOGO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DZ3_menu {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 12px;
+    color: #ffffff;
+    font-size: 18px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.content {
+    width: 1289px;
+    height: 374px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    /*border: 1px solid rgb(255, 0, 200);*/
+}
+
+.DZ3_main_content-text {
+    padding: 10px;
+    margin: 10px;
+    /*border: 1px solid rgb(218, 5, 247);*/
+}
+
+.h1 {
+    color: #222222;
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+.h4 {
+    color: grey;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+.DZ3_main_content-button {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.DZ3_but1 {
+    width: 140px;
+    height: 50px;
+    font-size: 14px;
+    border: 1px solid#ccc;
+    border-radius: 30px;
+    background-color: red;
+    color: #ffffff;
+}
+
+.DZ3_but2 {
+    width: 140px;
+    height: 50px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.DZ3_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/*.DZ3_header {
+    width: 1289px;
+    height: 114px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(158, 252, 7);
+    align-items: center;
+}*/
+
+
+/*
+.DZ3_menu {
+    width: 556px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid red;
+}
+
+.DZ3_main_content {
+    width: 1274px;
+    height: 536px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(5, 247, 57);
+}
+
+.DZ3_main_content-text {
+    width: 589px;
+    height: 494px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(218, 5, 247);
+}
+
+
+
+.DZ3_main_content-button {
+    width: 374px;
+    height: 94px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(247, 122, 5);
+    align-items: center;
+}
+
+.DZ3_but1 {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.DZ3_but2 {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: none;
+}
+
+.DZ3_photo {
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+    padding: 100px;
+
+margin: 150px;
+
+}
+.DZ3_logo {
+    width: 1920px;
+    height: 243px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(133, 1, 185);
+}
