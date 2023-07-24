@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+
+.menu {
+    width: 1600px;
+    height: 75px;
+    background-color: #222;
+    /* display: grid;
+    grid-row: span 1; */
+    padding-left: 150px;
+    padding-right: 150px;
+    /* display: flex;
+    justify-content: flex-end; */
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+    justify-items: end;
+}
+
+.img1 {
+    display: flex;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 25px);
+    /* height: 25px; */
+    row-gap: 0px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+.header {
+    width: 1600p;
+    height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.head_text {
+    width: 397px;
+    height: 93px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 10px;
+    /* margin-top: 48%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.head_text1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 900;
+    line-height: 58px;
+}
+
+.head_text2 {
+    color: #222;
+    font-size: 32px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.promo {
+    margin-top: 20px;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: center;
+    /* border: red; */
+}
+
+.promo_photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.promo_photo_fon {
+    background: rgba(33, 22, 22, 0.70);
+}
+
+.promo_text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+    /* left: 0; */
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.promo_text_sale {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.promo_text_content {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content_text {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-items: center; */
+    gap: 10px;
+    flex-flow: row wrap;
+    /* border: red; */
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.content_text1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_text2 {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_photo {
+    margin-top: 20px;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    display: flex;
+    flex-wrap: nowrap;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; */
+    gap: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+}
+
+.content_photo1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content2 {
+    background: #F7E4E2;
+    display: flex;
+    gap: 19px;
+}
+
+.content_photo_text1 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_photo_text2 {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.content_photo_text3 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer_text {
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media(max-width:768px) {
+    .menu {
+        width: 56%;
+        height: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .img1 {
+        width: 30%;
+    }
+    .img2 {
+        width: 23%;
+        height: 35%;
+    }
+    .header {
+        width: 66.5%;
+        height: 56%;
+    }
+    .head_photo {
+        width: 64%;
+    }
+    .head_text {
+        width: 66.5%;
+        height: 56%;
+    }
+    .head_text {
+        width: 66.5%;
+        height: 56%;
+        border-left: 8px solid #F16D7F;
+        margin: 5px;
+        padding-left: 5px;
+    }
+    .head_text1 {
+        font-size: 100%;
+        line-height: 18px;
+    }
+    .head_text2 {
+        font-size: 0.75em;
+    }
+    .promo {
+        margin-top: 10px;
+        width: 66.5%;
+        gap: 10px;
+    }
+    .promo_photo1 {
+        width: 100%;
+    }
+    .promo_text_sale {
+        font-size: 8px;
+    }
+    .promo_text_content {
+        font-size: 12px;
+    }
+    .content_text {
+        width: 68%;
+        margin-top: 60px;
+        gap: 5px;
+    }
+    .content_text1 {
+        font-size: 15px;
+    }
+    .content_text2 {
+        font-size: 7px;
+    }
+    .content_photo {
+        margin-top: 10px;
+        width: 66.5%;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+    }
+    .content_photo1 {
+        width: 150px;
+    }
+    .content2 {
+        gap: 0px;
+    }
+    .content_photo_real {
+        width: 100%;
+    }
+    .content_photo_real2 {
+        width: 41.5%;
+    }
+    .content_photo_text1 {
+        font-size: 6.5px;
+    }
+    .content_photo_text2 {
+        font-size: 7px;
+    }
+    .content_photo_text3 {
+        font-size: 8px;
+    }
+    .footer {
+        width: 67%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .footer_text {
+        font-size: 8px;
+    }
+}
